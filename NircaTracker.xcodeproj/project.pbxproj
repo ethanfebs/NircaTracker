@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B30FE07219E4A14008D56BE /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B30FE06219E4A14008D56BE /* ResultsTableViewCell.swift */; };
 		0B82F0312194125900E46F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82F0302194125900E46F4D /* AppDelegate.swift */; };
 		0B82F0332194125900E46F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82F0322194125900E46F4D /* ViewController.swift */; };
 		0B82F0362194125900E46F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B82F0342194125900E46F4D /* Main.storyboard */; };
 		0B82F0382194125C00E46F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B82F0372194125C00E46F4D /* Assets.xcassets */; };
 		0B82F03B2194125C00E46F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B82F0392194125C00E46F4D /* LaunchScreen.storyboard */; };
 		0B82F0462194125C00E46F4D /* NircaTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82F0452194125C00E46F4D /* NircaTrackerTests.swift */; };
+		0B82F0512194B04A00E46F4D /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82F0502194B04900E46F4D /* SearchTableViewCell.swift */; };
+		0B82F0532194B3C800E46F4D /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82F0522194B3C800E46F4D /* SearchTableViewController.swift */; };
+		0B82F0552194B46600E46F4D /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82F0542194B46600E46F4D /* Athlete.swift */; };
+		0B82F0572194B50100E46F4D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82F0562194B50100E46F4D /* Result.swift */; };
+		0BEE43A721AE67E300DB6E16 /* AthleteData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE43A621AE67E300DB6E16 /* AthleteData.txt */; };
+		0BEE43A921AE688A00DB6E16 /* nirca.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE43A821AE688A00DB6E16 /* nirca.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B30FE06219E4A14008D56BE /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
 		0B82F02D2194125900E46F4D /* NircaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NircaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B82F0302194125900E46F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B82F0322194125900E46F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,12 @@
 		0B82F0412194125C00E46F4D /* NircaTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NircaTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B82F0452194125C00E46F4D /* NircaTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NircaTrackerTests.swift; sourceTree = "<group>"; };
 		0B82F0472194125C00E46F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B82F0502194B04900E46F4D /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		0B82F0522194B3C800E46F4D /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		0B82F0542194B46600E46F4D /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
+		0B82F0562194B50100E46F4D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		0BEE43A621AE67E300DB6E16 /* AthleteData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AthleteData.txt; path = ../../AthleteData.txt; sourceTree = "<group>"; };
+		0BEE43A821AE688A00DB6E16 /* nirca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nirca.png; path = ../../nirca.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +91,16 @@
 		0B82F02F2194125900E46F4D /* NircaTracker */ = {
 			isa = PBXGroup;
 			children = (
+				0BEE43A821AE688A00DB6E16 /* nirca.png */,
+				0BEE43A621AE67E300DB6E16 /* AthleteData.txt */,
+				0B82F0502194B04900E46F4D /* SearchTableViewCell.swift */,
 				0B82F0302194125900E46F4D /* AppDelegate.swift */,
 				0B82F0322194125900E46F4D /* ViewController.swift */,
 				0B82F0342194125900E46F4D /* Main.storyboard */,
+				0B30FE06219E4A14008D56BE /* ResultsTableViewCell.swift */,
+				0B82F0522194B3C800E46F4D /* SearchTableViewController.swift */,
+				0B82F0542194B46600E46F4D /* Athlete.swift */,
+				0B82F0562194B50100E46F4D /* Result.swift */,
 				0B82F0372194125C00E46F4D /* Assets.xcassets */,
 				0B82F0392194125C00E46F4D /* LaunchScreen.storyboard */,
 				0B82F03C2194125C00E46F4D /* Info.plist */,
@@ -178,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B82F03B2194125C00E46F4D /* LaunchScreen.storyboard in Resources */,
+				0BEE43A921AE688A00DB6E16 /* nirca.png in Resources */,
 				0B82F0382194125C00E46F4D /* Assets.xcassets in Resources */,
+				0BEE43A721AE67E300DB6E16 /* AthleteData.txt in Resources */,
 				0B82F0362194125900E46F4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B82F0572194B50100E46F4D /* Result.swift in Sources */,
+				0B82F0552194B46600E46F4D /* Athlete.swift in Sources */,
+				0B30FE07219E4A14008D56BE /* ResultsTableViewCell.swift in Sources */,
+				0B82F0512194B04A00E46F4D /* SearchTableViewCell.swift in Sources */,
 				0B82F0332194125900E46F4D /* ViewController.swift in Sources */,
 				0B82F0312194125900E46F4D /* AppDelegate.swift in Sources */,
+				0B82F0532194B3C800E46F4D /* SearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
